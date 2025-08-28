@@ -62,17 +62,22 @@ document.getElementById("call-nen").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
-    }
-    else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
+    
     let now = new Date()
 let corretTime = now.toLocaleTimeString();
-console.log(corretTime)
-// document.getElementById("add-msg").innerText = corretTime
-const addmsg = document.getElementById("add-msg")
-const addTime =document.getElementById("add-time")
-let newText = "Emarjancy Number"
-addmsg.textContent += newText ;
-addTime.textContent += corretTime
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Emarjancy Number\n999\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+    newDiv.style.borderRadius ="8px"
+addmsg.appendChild(newDiv);
+    }
+    else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 })
 document.getElementById("call-phn").addEventListener("click", function(){
         const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
@@ -81,6 +86,19 @@ document.getElementById("call-phn").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Police Helpline Number\n999\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+    newDiv.style.borderRadius ="8px"
+addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -92,6 +110,19 @@ document.getElementById("call-fsn").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  " Fire Service Number \n999\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+   newDiv.style.borderRadius ="8px"
+ addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -103,6 +134,19 @@ document.getElementById("call-as").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Ambulance Service\n1994-999999\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+    newDiv.style.borderRadius ="8px"
+addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -114,6 +158,19 @@ document.getElementById("call-wch").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Women & Child Helpline\n109\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+    newDiv.style.borderRadius ="8px"
+addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -125,6 +182,19 @@ document.getElementById("call-ach").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Anti-Corruption Helpline\n106\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+    newDiv.style.borderRadius ="8px"
+addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -136,6 +206,19 @@ document.getElementById("call-eh").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  " Electricity Helpline\n16316\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+newDiv.style.borderRadius ="8px"
+    addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -147,6 +230,19 @@ document.getElementById("call-bh").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Brac Helpline\n16445\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+newDiv.style.borderRadius ="8px"
+    addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -158,6 +254,19 @@ document.getElementById("call-brh").addEventListener("click", function(){
      const coinAmound = parseInt(document.getElementById("coin-amound").innerText)
     const totalcoin = coinAmound - 20 
     document.getElementById("coin-amound").innerText = totalcoin
+    let now = new Date()
+let corretTime = now.toLocaleTimeString();
+ const addmsg = document.getElementById("add-msg")
+let newDiv = document.createElement("div");
+    newDiv.textContent +=  "Bangladesh Railway Helpline\n163\n " + corretTime;
+    newDiv.style.whiteSpace = "pre-line";
+    newDiv.style.border = "1px solid gray"; 
+    newDiv.style.width = "100%";
+     newDiv.style.margin = "5px";
+newDiv.style.padding = "5px";
+newDiv.style.backgroundColor ="#d3d3d3ff"
+newDiv.style.borderRadius ="8px"
+    addmsg.appendChild(newDiv);
     }
     else{ alert("You donot have enough coins. To make a call, at least 20 coins are required.")}
 
@@ -237,3 +346,8 @@ document.getElementById("brh-copy").addEventListener("click" , function(){
      let text = 163;
       navigator.clipboard.writeText(text);
 })
+
+document.getElementById("clear").addEventListener("click", function(){
+    const divAdd = document.getElementById("add-msg")
+    divAdd.innerText=""
+ })
